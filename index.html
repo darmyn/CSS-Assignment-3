@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sour Gummy Bears</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/sour-gummy-bears.jpeg" alt="Sour Gummy Bears" class="gummy-img">
+        <p>Sour gummy bears are a delightful and tangy treat that has captured the taste buds of candy lovers around the
+            world. These chewy, fruity, and sour candies are a popular choice for both kids and adults.</p>
+    </header>
+    <section>
+        <div class="fact-container">
+            <div class="fact">
+                <h2>Interesting Fact #1</h2>
+                <p>Sour gummy bears were invented in the 1980s by German candy maker Hans Riegel. The combination of
+                    sweet and sour flavors quickly gained popularity, and today, they are a staple in the candy world.
+                </p>
+                <div class="shine"></div>
+            </div>
+
+            <div class="fact">
+                <h2>Interesting Fact #2</h2>
+                <p>The sourness in gummy bears is often attributed to the use of citric acid, which not only provides
+                    the tangy flavor but also enhances the overall taste experience.</p>
+                <div class="shine"></div>
+            </div>
+        </div>
+
+        <div class="nutritional-info">
+            <h2>Nutritional Information</h2>
+            <p>While sour gummy bears are undoubtedly delicious, it's essential to enjoy them in moderation. Here's a
+                brief overview of the nutritional information for a typical serving:</p>
+            <ul>
+                <li>Calories: 120</li>
+                <li>Total Fat: 0g</li>
+                <li>Cholesterol: 0mg</li>
+                <li>Sodium: 10mg</li>
+                <li>Total Carbohydrates: 29g</li>
+                <li>Sugars: 19g</li>
+            </ul>
+            <div class="shine"></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <img src="assets/images/logo.png" alt="Company Logo" id="footerLogo">
+        <p>Indulge in the sweet and sour world of gummy bears responsibly!</p>
+        <p> 123 Boulevard Lane, SF, CA </p>
+        <p> 9AM-7PM weekdays, 8AM-10PM weekends</p>
+        <button id="contactBtn">Contact Us</button>
+    </footer>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
